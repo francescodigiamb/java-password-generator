@@ -16,7 +16,7 @@ public class PasswordGenerator {
 	
 	System.out.println(sum);
 	
-	String password= name + surname + color + sum;
+	String password= name + "-" + surname + "-" + color + "-" + sum;
 	
 	System.out.println(password);
 	
